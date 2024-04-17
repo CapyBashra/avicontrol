@@ -1,23 +1,18 @@
-# Laravel React Example Full Stack Application
-Example Application build with Laravel and React
+# Aplicativo Web para la gestión y control de la alimentación, inventario y salud de las gallinas de un galpón avícola.
 
-> The repo was created while I was working on the following [YouTube tutorial](https://youtu.be/qJq9ZMB2Was)
+## Instalación local 
+Requisitos necesario: tener instalado en su comojtadora PHP8.1 o superior, composer y Node.js.
 
-## Demo
-https://laravel-react.com
-
-
-## Installation 
-Make sure you have environment setup properly. You will need PHP8.1, composer and Node.js.
-
-1. Download the project (or clone using GIT)
-2. Copy `.env.example` into `.env` and configure database credentials
-3. Navigate to the project's root directory using terminal
-4. Run `composer install`
-5. Set the encryption key by executing `php artisan key:generate --ansi`
-6. Run migrations `php artisan migrate --seed`
-7. Start local server by executing `php artisan serve`
-8. Open new terminal and navigate to the `react` folder
-9. Copy `react/.env.example` into `.env` and adjust the `VITE_API_BASE_URL` parameter
-9. Run `npm install`
-10. Run `npm run dev` to start vite server for React
+Pasos para la instalación:
+1. Descargar el proyecto (o clonar usando GIT)
+2. Cambiar el nombre de  `.env.example` a `.env` y configurar las credenciales de la base de datos.
+3. Navegar a la carpeta raíz del projecto usando la terminal.
+4. Ejecutar el comando `composer install`
+5. Generar la clave de encriptación ejecutando `php artisan key:generate --ansi`
+6. Ejecutar las migraciones de la base de datos `php artisan migrate --seed`
+7. Iniciar el servidor local usando `php artisan serve`
+8. Abrir una nueva terminal y navegar a la carpeta `react` 
+9. Cambiar el nombre de `react/.env.example` a `.env` y ajustar la variable `VITE_API_BASE_URL` a un puerto disponible
+9. Ejecutar `npm install`
+10. Ejecutar `npm run dev` para iniciar el servidor de Vite y empezar usar la app.
+11. Navegar a la dirección dónde se está ejecutando el aplicativo.
